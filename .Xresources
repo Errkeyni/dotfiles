@@ -1,0 +1,53 @@
+! special
+*.foreground:   #ffffff
+*.background:   #000000
+*.cursorColor:  #ffffff
+
+! black
+*.color0:       #303030
+*.color8:       #5e5e5e
+
+! red
+*.color1:       #c10023
+*.color9:       #ff8781
+
+! green
+*.color2:       #a83334
+*.color10:      #ffa095
+
+! yellow
+*.color3:       #b51d2c
+*.color11:      #ff948b
+
+! blue
+*.color4:       #00f8a9
+*.color12:      #feb2aa
+
+! magenta
+*.color5:       #7d534f
+*.color13:      #ebbbb5
+
+! cyan
+*.color6:       #9a413d
+*.color14:      #ffaaa0
+
+! white
+*.color7:       #ffffff
+*.color15:      #ffffff
+
+
+! Black color that will not be affected by bold highlighting.
+*.color66: #0c070c
+*color66:  #0c070c
+
+! Xclock colors.
+XClock*foreground: #dfc8ce
+XClock*background: #0c070c
+XClock*majorColor:  rgba:df/c8/ce/ff
+XClock*minorColor:  rgba:df/c8/ce/ff
+XClock*hourColor:   rgba:df/c8/ce/ff
+XClock*minuteColor: rgba:df/c8/ce/ff
+XClock*secondColor: rgba:df/c8/ce/ff
+
+! Set depth to make transparency work.
+URxvt*depth: 32
